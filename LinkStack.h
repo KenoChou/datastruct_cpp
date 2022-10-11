@@ -9,7 +9,7 @@
 
 typedef int SElemType;
 typedef struct node{
-    SElemType data;
+    int data;
     struct node *link;
 }LinkNode,*LinkStack;
 void InitStack(LinkStack& S){
