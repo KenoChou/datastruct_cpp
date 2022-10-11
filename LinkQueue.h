@@ -22,6 +22,12 @@ void InitQueue(LinkQueue & Q){
 int EnQueue(LinkQueue& Q,QElemType x){
     LinkNode *s=(LinkNode*)malloc(sizeof (LinkNode));
     s->data=x;s->link=NULL;
+    if(Q.rear==NULL)Q.front=Q.rear=s;
+    else{Q.rear->link=s;Q.rear=s;}
+    return 1;
 }
+int Dequeue(LinkQueue&Q,QElemType& x){
+    if(Q.front==NULL) return 0;
 
+}
 #endif //UNTITLED2_LINKQUEUE_H
