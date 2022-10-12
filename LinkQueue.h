@@ -2,8 +2,8 @@
 // Created by kenochou on 22-10-11.
 //
 
-#ifndef UNTITLED2_LINKQUEUE_H
-#define UNTITLED2_LINKQUEUE_H
+#ifndef datastruct_cpp_LINKQUEUE_H
+#define datastruct_cpp_LINKQUEUE_H
 
 #include <cstdio>
 #include <cstdlib>
@@ -30,4 +30,4 @@ int Dequeue(LinkQueue&Q,QElemType& x){
     if(Q.front==NULL) return 0;
 
 }
-#endif //UNTITLED2_LINKQUEUE_H
+#endif //datastruct_cpp_LINKQUEUE_H

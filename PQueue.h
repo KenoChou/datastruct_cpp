@@ -2,8 +2,8 @@
 // Created by kenochou on 22-10-12.
 //
 #include <stdlib.h>
-#ifndef UNTITLED2_PQUEUE_H
-#define UNTITLED2_PQUEUE_H
+#ifndef datastruct_cpp_PQUEUE_H
+#define datastruct_cpp_PQUEUE_H
 #define maxPQSize 50
 typedef int PQElemType;
 typedef struct{
@@ -28,4 +28,4 @@ int PQRemove(PQueue&PQ,PQElemType&x){
     PQ.elem[k]=PQ.elem[PQ.n];
     return 1;
 }
-#endif //UNTITLED2_PQUEUE_H
+#endif //datastruct_cpp_PQUEUE_H

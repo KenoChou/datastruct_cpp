@@ -2,8 +2,8 @@
 // Created by kenochou on 22-10-11.
 //
 
-#ifndef UNTITLED2_LISTSET_H
-#define UNTITLED2_LISTSET_H
+#ifndef datastruct_cpp_LISTSET_H
+#define datastruct_cpp_LISTSET_H
 
 #include <stddef.h>
 #include <malloc.h>
@@ -69,4 +69,4 @@ void Merge(LinkSet& LA,LinkSet& LB,LinkSet& LC){
     };
 }
 
-#endif //UNTITLED2_LISTSET_H
+#endif //datastruct_cpp_LISTSET_H

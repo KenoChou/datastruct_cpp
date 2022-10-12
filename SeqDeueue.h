@@ -2,8 +2,8 @@
 // Created by kenochou on 22-10-12.
 //
 #include <stdio.h>
-#ifndef UNTITLED2_SEQDEUEUE_H
-#define UNTITLED2_SEQDEUEUE_H
+#ifndef datastruct_cpp_SEQDEUEUE_H
+#define datastruct_cpp_SEQDEUEUE_H
 #define maxSzie 100
 typedef int DQElemType;
 
@@ -46,4 +46,4 @@ int GetTail(SeqDeque&Q,DQElemType&x){
     x=Q.elem[(Q.end2-1+maxSzie)%maxSzie];
     return 1;
 };
-#endif //UNTITLED2_SEQDEUEUE_H
+#endif //datastruct_cpp_SEQDEUEUE_H

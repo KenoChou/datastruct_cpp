@@ -2,8 +2,8 @@
 // Created by kenochou on 22-10-11.
 //
 
-#ifndef UNTITLED2_SEQSTACK_H
-#define UNTITLED2_SEQSTACK_H
+#ifndef datastruct_cpp_SEQSTACK_H
+#define datastruct_cpp_SEQSTACK_H
 
 #include <cstdlib>
 #include <iostream>
@@ -48,4 +48,4 @@ int StackFull(SeqStack & S){
 int StackSize(SeqStack& S){
     return S.top+1;
 }
-#endif //UNTITLED2_SEQSTACK_H
+#endif //datastruct_cpp_SEQSTACK_H

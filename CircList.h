@@ -2,8 +2,8 @@
 // Created by kenochou on 22-10-11.
 //
 
-#ifndef UNTITLED2_CIRCLIST_H
-#define UNTITLED2_CIRCLIST_H
+#ifndef datastruct_cpp_CIRCLIST_H
+#define datastruct_cpp_CIRCLIST_H
 
 #include <stdlib.h>
 #include <stdio.h>
@@ -43,4 +43,4 @@ int Remove(CircNode *first ,int i,DataType& x){
     x=q->data;free(q);
     return 1;
 }
-#endif //UNTITLED2_CIRCLIST_H
+#endif //datastruct_cpp_CIRCLIST_H

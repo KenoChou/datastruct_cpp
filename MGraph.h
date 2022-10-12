@@ -2,8 +2,8 @@
 // Created by kenochou on 22-10-11.
 //
 
-#ifndef UNTITLED2_MGRAPH_H
-#define UNTITLED2_MGRAPH_H
+#ifndef datastruct_cpp_MGRAPH_H
+#define datastruct_cpp_MGRAPH_H
 #include<stdio.h>
 #include<stdlib.h>
 #define maxVertices 30
@@ -57,4 +57,4 @@ Weight getWeight(Mgraph & G,int v,int w){
     if(v!=-1&& w!=-1) return  G.Edge[v][w];
     else return impossibleWeight;
 }
-#endif //UNTITLED2_MGRAPH_H
+#endif //datastruct_cpp_MGRAPH_H

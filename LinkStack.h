@@ -2,8 +2,8 @@
 // Created by kenochou on 22-10-11.
 //
 
-#ifndef UNTITLED2_LINKSTACK_H
-#define UNTITLED2_LINKSTACK_H
+#ifndef datastruct_cpp_LINKSTACK_H
+#define datastruct_cpp_LINKSTACK_H
 
 #include <cstdlib>
 
@@ -39,4 +39,4 @@ int StackSize(LinkStack &S){
     while (p!=NULL){ p=p->link;k++;}
     return k;
 }
-#endif //UNTITLED2_LINKSTACK_H
+#endif //datastruct_cpp_LINKSTACK_H

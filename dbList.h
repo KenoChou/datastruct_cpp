@@ -5,8 +5,8 @@
 #include <cstdlib>
 #include <cstdio>
 
-#ifndef UNTITLED2_DBLIST_H
-#define UNTITLED2_DBLIST_H
+#ifndef datastruct_cpp_DBLIST_H
+#define datastruct_cpp_DBLIST_H
 
 #define maxSize 30
 typedef int DataType;
@@ -76,4 +76,4 @@ int Remove(DblList& first,int i,DataType* x,int d){
     x=&p->data;free(p);
     return 1;
 };
-#endif //UNTITLED2_DBLIST_H
+#endif //datastruct_cpp_DBLIST_H

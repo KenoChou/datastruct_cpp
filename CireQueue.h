@@ -2,8 +2,8 @@
 // Created by kenochou on 22-10-11.
 //
 
-#ifndef UNTITLED2_CIREQUEUE_H
-#define UNTITLED2_CIREQUEUE_H
+#ifndef datastruct_cpp_CIREQUEUE_H
+#define datastruct_cpp_CIREQUEUE_H
 typedef int QElemType;
 #define maxSize 20
 typedef struct {
@@ -29,4 +29,4 @@ int QueueFull(CireQueue & Q){
 int QueueSize(CireQueue& Q){
     return (Q.rear-Q.front+maxSize) % maxSize;
 };
-#endif //UNTITLED2_CIREQUEUE_H
+#endif //datastruct_cpp_CIREQUEUE_H

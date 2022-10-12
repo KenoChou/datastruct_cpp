@@ -2,8 +2,8 @@
 // Created by kenochou on 22-10-11.
 //
 
-#ifndef UNTITLED2_LIST_H
-#define UNTITLED2_LIST_H
+#ifndef datastruct_cpp_LIST_H
+#define datastruct_cpp_LIST_H
 
 
 #include<stdio.h>
@@ -77,4 +77,4 @@ void Intersection(SeqList &LA,SeqList&LB){
         k= Search(LB,x);
     }
 };
-#endif //UNTITLED2_LIST_H
+#endif //datastruct_cpp_LIST_H

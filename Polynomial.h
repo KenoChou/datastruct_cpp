@@ -2,8 +2,8 @@
 // Created by kenochou on 22-10-11.
 //
 
-#ifndef UNTITLED2_POLYNOMIAL_H
-#define UNTITLED2_POLYNOMIAL_H
+#ifndef datastruct_cpp_POLYNOMIAL_H
+#define datastruct_cpp_POLYNOMIAL_H
 
 
 #include<stdlib.h>
@@ -119,4 +119,4 @@ void MultPolynomial(Polynomial& A,Polynomial& B,Polynomial& C  ){
         pa=pa->link;t=t->link;
     }
 }
-#endif //UNTITLED2_POLYNOMIAL_H
+#endif //datastruct_cpp_POLYNOMIAL_H

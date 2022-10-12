@@ -4,8 +4,8 @@
 #include <cstdio>
 
 #define maxSize 256
-#ifndef UNTITLED2_SEQSTRING_H
-#define UNTITLED2_SEQSTRING_H
+#ifndef datastruct_cpp_SEQSTRING_H
+#define datastruct_cpp_SEQSTRING_H
 typedef struct {
     char ch[maxSize];
     int n;
@@ -41,4 +41,4 @@ int Concat(SeqString& S1,SeqString &S2){
     }
     else return 0;
 }
-#endif //UNTITLED2_SEQSTRING_H
+#endif //datastruct_cpp_SEQSTRING_H

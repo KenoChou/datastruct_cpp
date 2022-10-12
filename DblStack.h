@@ -2,8 +2,8 @@
 // Created by kenochou on 22-10-11.
 //
 
-#ifndef UNTITLED2_DBLSTACK_H
-#define UNTITLED2_DBLSTACK_H
+#ifndef datastruct_cpp_DBLSTACK_H
+#define datastruct_cpp_DBLSTACK_H
 #define m 20
 typedef int SElemType;
 typedef struct{
@@ -26,4 +26,4 @@ if(i==0)x=S.v[S.top[0]--];
 else x= S.v[S.top[1]++];
     return 1;
 }
-#endif //UNTITLED2_DBLSTACK_H
+#endif //datastruct_cpp_DBLSTACK_H
