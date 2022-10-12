@@ -1,0 +1,1 @@
+/usr/bin/c++ -g CMakeFiles/datastruct_cpp.dir/main.cpp.o -o datastruct_cpp 
