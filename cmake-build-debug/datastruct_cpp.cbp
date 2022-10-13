@@ -91,6 +91,9 @@
 		<Unit filename="/home/kenochou/CLionProjects/datastruct_cpp/DblStack.h">
 			<Option target="datastruct_cpp"/>
 		</Unit>
+		<Unit filename="/home/kenochou/CLionProjects/datastruct_cpp/Glist.h">
+			<Option target="datastruct_cpp"/>
+		</Unit>
 		<Unit filename="/home/kenochou/CLionProjects/datastruct_cpp/HString.h">
 			<Option target="datastruct_cpp"/>
 		</Unit>
