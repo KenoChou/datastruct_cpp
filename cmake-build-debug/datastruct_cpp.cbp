@@ -118,6 +118,9 @@
 		<Unit filename="/home/kenochou/CLionProjects/datastruct_cpp/PQueue.h">
 			<Option target="datastruct_cpp"/>
 		</Unit>
+		<Unit filename="/home/kenochou/CLionProjects/datastruct_cpp/PolyNode.h">
+			<Option target="datastruct_cpp"/>
+		</Unit>
 		<Unit filename="/home/kenochou/CLionProjects/datastruct_cpp/Polynomial.h">
 			<Option target="datastruct_cpp"/>
 		</Unit>
