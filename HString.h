@@ -54,4 +54,37 @@ int Concat(HString&S1,HString& S2){
     S1.ch[i]='\0';S1.n=S1.n+S2.n;
     return 1;
 };
+int Find(HString & T,HString& P){
+    int i,j,k;
+    for(i=0;i<=T.n-P.n;i++){
+        for (int k = i; k < P.n; ++k,j++) {
+            if(T.ch[k] !=P.ch[j])break;
+            if (i==P.n)return i;
+        }
+    }
+    return  -1;
+}
+int fastFind(HString& T,HString& P,int next[]){
+int j=0,i=0;
+    while (j<P.n&&j<T.n){
+        if(j==-1||P.ch[i]==T.ch[i]){
+            j++;i++;
+        }else{
+            j=next[j];
+        }
+    }
+    if(j<P.n)return -1;
+    else return i-P.n;
+};
+void getNext(HString& P,int next[]){
+    int j=0,k=-1;next[0]=-1;
+    while (j<P.n){
+        while (k>=0&&P.ch[j] !=P.ch[k])k=next[k];
+        j++;k++;
+        if(P.ch[j]==P.ch[k]) next[j]=next[k];
+        else
+            next[j]=k;
+    }
+};
+
 #endif //DATASTRUCT_CPP_HSTRING_H
