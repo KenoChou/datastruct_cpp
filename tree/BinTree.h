@@ -6,6 +6,7 @@
 #define DATASTRUCT_CPP_BINTREE_H
 
 #include <cstdio>
+#include <cstdlib>
 
 typedef char TElemType;
 #define  maxSzie 10
@@ -40,5 +41,16 @@ void PostOrder_recur(BiTnode * BT){
         printf("%d",BT->data);
     }
 }
+void CreateBinTree_Pre(BiTnode *&T,TElemType pre[],int & n){
+    TElemType ch =pre[n++];
+    if(ch==';') return;
+    if(ch != '#'){
+        T=(BiTnode *) malloc(sizeof(BiTnode));
+T->data=ch;
+        CreateBinTree_Pre(T->lchild,pre,n);
+        CreateBinTree_Pre(T->rchild,pre,n);
+    }
+    else T=NULL;
+};
 #endif //DATASTRUCT_CPP_BINTREE_H
 
