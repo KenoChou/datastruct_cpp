@@ -3,4 +3,4 @@ project(datastruct_cpp)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(datastruct_cpp main.cpp SeqStack.h DblStack.h LinkStack.h CireQueue.h MGraph.h ListSet.h List.h CircList.h dbList.h Polynomial.h LinkQueue.h SeqDeueue.h PQueue.h SeqString.h HString.h Glist.h GenList.h PolyNode.h tree/BinTree.h)
+add_executable(datastruct_cpp main.cpp Stack/SeqStack.h Stack/DblStack.h Stack/LinkStack.h Queue/CireQueue.h MGraph.h List/ListSet.h List/List.h List/CircList.h List/dbList.h List/Polynomial.h Stack/LinkQueue.h Queue/SeqDeueue.h Queue/PQueue.h String/SeqString.h String/HString.h List/Glist.h List/GenList.h Queue/PolyNode.h tree/BinTree.h ThreadNode.h)

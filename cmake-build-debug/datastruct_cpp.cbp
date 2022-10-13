@@ -133,6 +133,9 @@
 		<Unit filename="/home/kenochou/CLionProjects/datastruct_cpp/SeqString.h">
 			<Option target="datastruct_cpp"/>
 		</Unit>
+		<Unit filename="/home/kenochou/CLionProjects/datastruct_cpp/ThreadNode.h">
+			<Option target="datastruct_cpp"/>
+		</Unit>
 		<Unit filename="/home/kenochou/CLionProjects/datastruct_cpp/dbList.h">
 			<Option target="datastruct_cpp"/>
 		</Unit>
