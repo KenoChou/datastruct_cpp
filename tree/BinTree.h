@@ -66,5 +66,28 @@ void PrintBinTree(BiTnode *t){
     }
 }
 }
+void clearBinTree(BiTnode *& T){
+    if(T !=NULL){
+        clearBinTree(T->lchild);
+        clearBinTree(T->rchild);
+        free(T);T=NULL;
+    }
+}
+int Height(BiTnode *T){
+    if(T==NULL) return 0;
+    else{
+        int i= Height(T->lchild);
+        int j= Height(T->rchild);
+        return (i<j)?j+1:i+1;
+    }
+}
+BiTnode * getParent(BiTnode*t,BiTnode *p){
+    if(t==NULL)return  NULL;
+    if(t==p)return NULL;
+    if(t->rchild==p||t->lchild==p)return t;
+    BiTnode *S= getParent(t->lchild,p);
+    if(S!=NULL)return S;
+    else return getParent(t->rchild,p);
+}
 #endif //DATASTRUCT_CPP_BINTREE_H
 

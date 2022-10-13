@@ -1,12 +1,17 @@
 #include <iostream>
-#include "SeqStack.h"
+#include "tree/BinTree.h"
 int main() {
-    SeqStack S;
-    InitStack(S);
-    Push(S,4);
-Push(S,3);
-    //Pop(S,0);
-   std::cout<<S.elem[1]<<std::endl;
-    //std::cout << "Hello, World!" << std::endl;
+BiTnode root,r1;
+root.data=1;
+root.rchild=NULL;
+//std::cout<<root.data<<"123"<<std::endl;
+    root.lchild=&r1;
+    r1.data=3;
+    r1.lchild=r1.rchild=NULL;
+//int n=2;
+     //TElemType *pre;
+  // CreateBinTree_Pre(root, pre, n);
+   // PrintBinTree(root);
+    InOrder_recur(&root);
     return 0;
 }
