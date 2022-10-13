@@ -52,5 +52,6 @@ T->data=ch;
     }
     else T=NULL;
 };
+//创建二叉树
 #endif //DATASTRUCT_CPP_BINTREE_H
 
