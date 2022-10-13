@@ -53,5 +53,18 @@ T->data=ch;
     else T=NULL;
 };
 //创建二叉树
+void PrintBinTree(BiTnode *t){
+    if(t!=NULL){
+        printf("%c",t->data);
+
+    if(t->lchild!=NULL||t->rchild!=NULL){
+        printf("(");
+        PrintBinTree(t->lchild);
+        printf(",");
+        PrintBinTree(t->rchild);
+        printf(")");
+    }
+}
+}
 #endif //DATASTRUCT_CPP_BINTREE_H
 
