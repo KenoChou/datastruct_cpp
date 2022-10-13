@@ -139,6 +139,9 @@
 		<Unit filename="/home/kenochou/CLionProjects/datastruct_cpp/main.cpp">
 			<Option target="datastruct_cpp"/>
 		</Unit>
+		<Unit filename="/home/kenochou/CLionProjects/datastruct_cpp/tree/BinTree.h">
+			<Option target="datastruct_cpp"/>
+		</Unit>
 		<Unit filename="/home/kenochou/CLionProjects/datastruct_cpp/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
