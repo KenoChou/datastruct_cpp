@@ -145,10 +145,19 @@
 		<Unit filename="/home/kenochou/CLionProjects/datastruct_cpp/tree/CSTree.h">
 			<Option target="datastruct_cpp"/>
 		</Unit>
+		<Unit filename="/home/kenochou/CLionProjects/datastruct_cpp/tree/Huffman.h">
+			<Option target="datastruct_cpp"/>
+		</Unit>
 		<Unit filename="/home/kenochou/CLionProjects/datastruct_cpp/tree/Ptree.h">
 			<Option target="datastruct_cpp"/>
 		</Unit>
 		<Unit filename="/home/kenochou/CLionProjects/datastruct_cpp/tree/ThreadNode.h">
+			<Option target="datastruct_cpp"/>
+		</Unit>
+		<Unit filename="/home/kenochou/CLionProjects/datastruct_cpp/tree/UFSets.h">
+			<Option target="datastruct_cpp"/>
+		</Unit>
+		<Unit filename="/home/kenochou/CLionProjects/datastruct_cpp/tree/minHeap.h">
 			<Option target="datastruct_cpp"/>
 		</Unit>
 		<Unit filename="/home/kenochou/CLionProjects/datastruct_cpp/CMakeLists.txt">

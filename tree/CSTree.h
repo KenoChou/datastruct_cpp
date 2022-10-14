@@ -77,5 +77,30 @@ void CreatePTree(PTree& T,TElemType G[]){
     }
     T.n=k+1;
 }
-
+void CreateCSTree_Gen(CSTree & T,TElemType G[]){
+typedef struct { CSNode * Ptr;int dir;}SNode;
+SNode S[stackSize];int top =-1;
+int i,k=-1;TElemType  ch; CSNode  *p;
+    T=(CSNode*) malloc(sizeof (CSNode));
+    T->data=G[0];T->lchild=T->rsibling=NULL;
+    S[++top].Ptr=T;
+    for (int i = 1; G[i] != '#'; ++i) {
+        ch=G[i];
+        switch (ch) {
+            case '(':S[top].dir=0;
+                break;
+            case ')':top--;
+                break;
+            case ',':S[top].dir=1;
+                break;
+            default:p=(CSNode*) malloc(sizeof(CSNode));
+            p->data=ch;p->lchild=p->rsibling=NULL;
+            if(top>-1){
+                if(S[top].dir==0)S[top].Ptr->lchild=p;
+                else {S[top].Ptr->rsibling=p;top--;}
+            }
+            S[++top].Ptr=p;
+        }
+    }
+}
 #endif //DATASTRUCT_CPP_CSTREE_H
