@@ -46,4 +46,5 @@ void CreateInthread(InThredTree T){
     InThreaded(T,pre);
     pre->rchild=NULL;pre->rtag=1;
 }}
+
 #endif //DATASTRUCT_CPP_THREADNODE_H

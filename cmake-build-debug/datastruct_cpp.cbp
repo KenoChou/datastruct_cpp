@@ -82,67 +82,73 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/home/kenochou/CLionProjects/datastruct_cpp/CircList.h">
+		<Unit filename="/home/kenochou/CLionProjects/datastruct_cpp/List/CircList.h">
 			<Option target="datastruct_cpp"/>
 		</Unit>
-		<Unit filename="/home/kenochou/CLionProjects/datastruct_cpp/CireQueue.h">
+		<Unit filename="/home/kenochou/CLionProjects/datastruct_cpp/List/GenList.h">
 			<Option target="datastruct_cpp"/>
 		</Unit>
-		<Unit filename="/home/kenochou/CLionProjects/datastruct_cpp/DblStack.h">
+		<Unit filename="/home/kenochou/CLionProjects/datastruct_cpp/List/Glist.h">
 			<Option target="datastruct_cpp"/>
 		</Unit>
-		<Unit filename="/home/kenochou/CLionProjects/datastruct_cpp/GenList.h">
+		<Unit filename="/home/kenochou/CLionProjects/datastruct_cpp/List/List.h">
 			<Option target="datastruct_cpp"/>
 		</Unit>
-		<Unit filename="/home/kenochou/CLionProjects/datastruct_cpp/Glist.h">
+		<Unit filename="/home/kenochou/CLionProjects/datastruct_cpp/List/ListSet.h">
 			<Option target="datastruct_cpp"/>
 		</Unit>
-		<Unit filename="/home/kenochou/CLionProjects/datastruct_cpp/HString.h">
+		<Unit filename="/home/kenochou/CLionProjects/datastruct_cpp/List/Polynomial.h">
 			<Option target="datastruct_cpp"/>
 		</Unit>
-		<Unit filename="/home/kenochou/CLionProjects/datastruct_cpp/LinkQueue.h">
-			<Option target="datastruct_cpp"/>
-		</Unit>
-		<Unit filename="/home/kenochou/CLionProjects/datastruct_cpp/LinkStack.h">
-			<Option target="datastruct_cpp"/>
-		</Unit>
-		<Unit filename="/home/kenochou/CLionProjects/datastruct_cpp/List.h">
-			<Option target="datastruct_cpp"/>
-		</Unit>
-		<Unit filename="/home/kenochou/CLionProjects/datastruct_cpp/ListSet.h">
+		<Unit filename="/home/kenochou/CLionProjects/datastruct_cpp/List/dbList.h">
 			<Option target="datastruct_cpp"/>
 		</Unit>
 		<Unit filename="/home/kenochou/CLionProjects/datastruct_cpp/MGraph.h">
 			<Option target="datastruct_cpp"/>
 		</Unit>
-		<Unit filename="/home/kenochou/CLionProjects/datastruct_cpp/PQueue.h">
+		<Unit filename="/home/kenochou/CLionProjects/datastruct_cpp/Queue/CireQueue.h">
 			<Option target="datastruct_cpp"/>
 		</Unit>
-		<Unit filename="/home/kenochou/CLionProjects/datastruct_cpp/PolyNode.h">
+		<Unit filename="/home/kenochou/CLionProjects/datastruct_cpp/Queue/PQueue.h">
 			<Option target="datastruct_cpp"/>
 		</Unit>
-		<Unit filename="/home/kenochou/CLionProjects/datastruct_cpp/Polynomial.h">
+		<Unit filename="/home/kenochou/CLionProjects/datastruct_cpp/Queue/PolyNode.h">
 			<Option target="datastruct_cpp"/>
 		</Unit>
-		<Unit filename="/home/kenochou/CLionProjects/datastruct_cpp/SeqDeueue.h">
+		<Unit filename="/home/kenochou/CLionProjects/datastruct_cpp/Queue/SeqDeueue.h">
 			<Option target="datastruct_cpp"/>
 		</Unit>
-		<Unit filename="/home/kenochou/CLionProjects/datastruct_cpp/SeqStack.h">
+		<Unit filename="/home/kenochou/CLionProjects/datastruct_cpp/Stack/DblStack.h">
 			<Option target="datastruct_cpp"/>
 		</Unit>
-		<Unit filename="/home/kenochou/CLionProjects/datastruct_cpp/SeqString.h">
+		<Unit filename="/home/kenochou/CLionProjects/datastruct_cpp/Stack/LinkQueue.h">
 			<Option target="datastruct_cpp"/>
 		</Unit>
-		<Unit filename="/home/kenochou/CLionProjects/datastruct_cpp/ThreadNode.h">
+		<Unit filename="/home/kenochou/CLionProjects/datastruct_cpp/Stack/LinkStack.h">
 			<Option target="datastruct_cpp"/>
 		</Unit>
-		<Unit filename="/home/kenochou/CLionProjects/datastruct_cpp/dbList.h">
+		<Unit filename="/home/kenochou/CLionProjects/datastruct_cpp/Stack/SeqStack.h">
+			<Option target="datastruct_cpp"/>
+		</Unit>
+		<Unit filename="/home/kenochou/CLionProjects/datastruct_cpp/String/HString.h">
+			<Option target="datastruct_cpp"/>
+		</Unit>
+		<Unit filename="/home/kenochou/CLionProjects/datastruct_cpp/String/SeqString.h">
 			<Option target="datastruct_cpp"/>
 		</Unit>
 		<Unit filename="/home/kenochou/CLionProjects/datastruct_cpp/main.cpp">
 			<Option target="datastruct_cpp"/>
 		</Unit>
 		<Unit filename="/home/kenochou/CLionProjects/datastruct_cpp/tree/BinTree.h">
+			<Option target="datastruct_cpp"/>
+		</Unit>
+		<Unit filename="/home/kenochou/CLionProjects/datastruct_cpp/tree/CSTree.h">
+			<Option target="datastruct_cpp"/>
+		</Unit>
+		<Unit filename="/home/kenochou/CLionProjects/datastruct_cpp/tree/Ptree.h">
+			<Option target="datastruct_cpp"/>
+		</Unit>
+		<Unit filename="/home/kenochou/CLionProjects/datastruct_cpp/tree/ThreadNode.h">
 			<Option target="datastruct_cpp"/>
 		</Unit>
 		<Unit filename="/home/kenochou/CLionProjects/datastruct_cpp/CMakeLists.txt">
