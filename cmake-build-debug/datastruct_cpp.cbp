@@ -82,6 +82,12 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/home/kenochou/CLionProjects/datastruct_cpp/Graph/ALGraph.h">
+			<Option target="datastruct_cpp"/>
+		</Unit>
+		<Unit filename="/home/kenochou/CLionProjects/datastruct_cpp/Graph/MGraph.h">
+			<Option target="datastruct_cpp"/>
+		</Unit>
 		<Unit filename="/home/kenochou/CLionProjects/datastruct_cpp/List/CircList.h">
 			<Option target="datastruct_cpp"/>
 		</Unit>
@@ -101,9 +107,6 @@
 			<Option target="datastruct_cpp"/>
 		</Unit>
 		<Unit filename="/home/kenochou/CLionProjects/datastruct_cpp/List/dbList.h">
-			<Option target="datastruct_cpp"/>
-		</Unit>
-		<Unit filename="/home/kenochou/CLionProjects/datastruct_cpp/MGraph.h">
 			<Option target="datastruct_cpp"/>
 		</Unit>
 		<Unit filename="/home/kenochou/CLionProjects/datastruct_cpp/Queue/CireQueue.h">

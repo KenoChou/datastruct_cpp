@@ -57,4 +57,27 @@ Weight getWeight(Mgraph & G,int v,int w){
     if(v!=-1&& w!=-1) return  G.Edge[v][w];
     else return impossibleWeight;
 }
+void CreateMGraph(Mgraph& G,int n,int e,int d){
+
+    G.numVertices=n;G.numEdges=e;
+    int i,j,k;Type val,e1,e2;Weight cost;
+    for(i=0;i<G.numVertices;i++){
+        scanf("%c",&val);G.VerticeList[i]=val;
+        for(j=0;j<G.numVertices;j++){
+            G.Edge[i][j]=(i==j)?0:maxWeight;
+        }
+    }
+    k=0;
+    while(k<G.numVertices){
+        scanf("%c,%c,%d",&e1,&e2,&cost);
+        i= getVertexPos(G,e1);
+        j= getVertexPos(G,e2);
+        if(i!= -1 &&j != -1){
+            G.Edge[i][j]=cost;
+            if(d==0)G.Edge[j][i]=cost;
+            k++;
+        } else printf("边两端顶点信息有误，重新输入！\n");
+    }
+}
+
 #endif //datastruct_cpp_MGRAPH_H
