@@ -95,4 +95,73 @@ void createALGraph(ALGraph& G,int n,int e,int d){
       else printf("边两端顶点信息有误，重新输入！\n");
     }
 }
+void printALGraph(ALGraph& G,int d){
+    int i;EdgeNode *p;
+    printf("图G的顶点数是%d\n",G.numVertices);
+    printf("顶点向量的值是\n");
+    for(i=0;i<G.numVertices;i++){
+        printf("%c",G.VerticesList[i].data);
+    }
+    printf("\n");
+    printf("图G的边数是\n",G.numEdges);
+    for(i=0;i<G.numVertices;i++) {
+    for(p=G.VerticesList[i].adj;p!=NULL;p=p->link){
+        if(d==0&&p->dest<i)continue;
+        printf("(%d,%d)%d",i,p->dest,p->cost);
+    }
+        printf("\n");
+    }
+    }
+    void DFS_recur(ALGraph &G,int v,int visited[]){
+        printf("->%c", getValue(G,v));visited[v]=1;
+        int w= FirstNeighbor(G,v);
+        while (w!=-1){
+            if(!visited[w])DFS_recur(G,w,visited);
+            w= NextNeighbor(G,v,w);
+        }
+}
+void DFS_Traversal(ALGraph&G,int v){
+    int i,n= NumberOfVertices(G);
+    int visited[maxVertices];
+    for(i=0;i<n;i++)visited[i]=0;
+    DFS_recur(G,v,visited);
+    printf("\n");
+}
+void BFSTraverse(ALGraph&G){
+    int i,j,w,n= NumberOfVertices(G);EdgeNode *p;
+   int visited[maxVertices];
+    for(i=0;i<n;i++)visited[i]=0;
+    int vexno[maxVertices];int front=0,rear=0;
+    for(i=0;i<n;i++){
+        if(!visited[i]){
+            printf("->%c", getValue(G,i));
+            visited[i]=1;vexno[rear++]=i;
+            while(front<rear){
+                j=vexno[front++];
+                w= FirstNeighbor(G,j);
+                while (w!=-1){
+                    if(!visited[w]){
+                        printf("->%c", getValue(G,w));
+                        visited[w]=1;
+                        vexno[rear++]=w;
+                    }
+                    w= NextNeighbor(G,j,w);
+                }
+            }
+        }
+    }
+}
+#define maxSize 100
+void calComponents(ALGraph& G){
+    int i,k,n= NumberOfVertices(G);
+    int visited[maxSize];
+    for(i=0;i<n;i++)visited[i]=0;
+    k=0;
+    for(i=0;i<n;i++){
+        if(!visited[i]){
+            printf("输出第%d个连同分量的边：\n",++k);
+            DFS_recur(G,i,visited);
+        }
+    }
+}
 #endif //DATASTRUCT_CPP_ALGRAPH_H
