@@ -33,8 +33,9 @@ CMakeFiles/datastruct_cpp.dir/main.cpp.o: \
  /usr/include/c++/11/bits/exception_defines.h \
  /usr/include/c++/11/bits/cxxabi_init_exception.h \
  /usr/include/c++/11/typeinfo /usr/include/c++/11/bits/hash_bytes.h \
- /usr/include/c++/11/new /usr/include/c++/11/bits/nested_exception.h \
- /usr/include/c++/11/bits/move.h /usr/include/c++/11/type_traits \
+ /usr/include/c++/11/new /usr/include/c++/11/bits/move.h \
+ /usr/include/c++/11/type_traits \
+ /usr/include/c++/11/bits/nested_exception.h \
  /usr/include/c++/11/bits/char_traits.h \
  /usr/include/c++/11/bits/stl_algobase.h \
  /usr/include/c++/11/bits/functexcept.h \
@@ -143,4 +144,7 @@ CMakeFiles/datastruct_cpp.dir/main.cpp.o: \
  /usr/include/c++/11/bits/basic_ios.tcc \
  /usr/include/c++/11/bits/ostream.tcc /usr/include/c++/11/istream \
  /usr/include/c++/11/bits/istream.tcc \
- /home/kenochou/CLionProjects/datastruct_cpp/tree/BinTree.h
+ /home/kenochou/CLionProjects/datastruct_cpp/Stack/SeqStack.h \
+ /home/kenochou/CLionProjects/datastruct_cpp/List/List.h \
+ /usr/include/c++/11/stdlib.h \
+ /usr/lib/gcc/x86_64-linux-gnu/11/include/stdbool.h

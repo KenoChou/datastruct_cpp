@@ -1,17 +1,33 @@
-#include <iostream>
-#include "tree/BinTree.h"
-int main() {
-BiTnode root,r1;
-root.data=1;
-root.rchild=NULL;
-//std::cout<<root.data<<"123"<<std::endl;
-    root.lchild=&r1;
-    r1.data=3;
-    r1.lchild=r1.rchild=NULL;
-//int n=2;
-     //TElemType *pre;
-  // CreateBinTree_Pre(root, pre, n);
-   // PrintBinTree(root);
-    InOrder_recur(&root);
-    return 0;
+#include<iostream>
+
+#include "Stack/SeqStack.h"
+#include "List/List.h"
+
+
+using namespace std;
+int main(){
+SeqList L;
+DataType x[10]={0,1,233,4,5,6,7,8,9};
+    initList(L);
+  for(int i=0;i<=10;i++) {
+
+
+      Insert(L, i, x[i]);
+  }
+
+  DataType e=-1;
+  if(Remove(L,2,e))
+  {
+   cout<<e;
+  }
+  else{
+      cout<<"cuowu";
+  }
+//cout<<    Search(L,x[3]);
+
+
+    /*while (!StackEmpty(S)){
+        Pop(S,i);
+        return i;
+    }*/
 }
