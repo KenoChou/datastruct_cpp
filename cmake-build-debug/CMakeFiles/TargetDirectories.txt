@@ -1,3 +1,0 @@
-/home/kenochou/CLionProjects/datastruct_cpp/cmake-build-debug/CMakeFiles/datastruct_cpp.dir
-/home/kenochou/CLionProjects/datastruct_cpp/cmake-build-debug/CMakeFiles/edit_cache.dir
-/home/kenochou/CLionProjects/datastruct_cpp/cmake-build-debug/CMakeFiles/rebuild_cache.dir
